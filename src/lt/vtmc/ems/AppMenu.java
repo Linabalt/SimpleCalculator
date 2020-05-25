@@ -8,7 +8,7 @@ public class AppMenu {
 
     public void mainMenu() throws Exception {
         //
-        while (exit != 'y') {
+        while (exit != 'n') {
             System.out.println("Simple Java calculator ver. 1.0");
             arithmeticCalculateMenu();
             exitMenu();
